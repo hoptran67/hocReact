@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
 import MyComponent from './ex/Mycomponent.js';
+import ChildComponent from './ex/Mycomponent.js';
 /**
  * 2 components: class component / function component ( function, arrow)
  * JSX
@@ -18,6 +19,7 @@ function App() {
         </p>
         
         <MyComponent />
+  
 
       </header>
     </div>
